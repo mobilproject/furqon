@@ -236,6 +236,7 @@ function ajax(d)
 
                 $("ons-list-item").off().on("click", function () {
                     $(event.currentTarget).find(".qavs_ichi").toggle();
+                    $(event.currentTarget).find(".zmdi-comment").toggle();
                 });
 
                 setTimeout(function () {
@@ -244,7 +245,7 @@ function ajax(d)
                     });
 
                     function now_color() {
-                        $(".qavs_ichi").parent().parent().parent().parent().parent().css("background-color", "rgba(134, 255, 0, 0.35)");
+                        //$(".qavs_ichi").parent().parent().parent().parent().parent().css("background-color", "rgba(134, 255, 0, 0.35)");
                     }
                 }, 2000);
             }

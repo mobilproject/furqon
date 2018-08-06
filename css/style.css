@@ -16,6 +16,9 @@ ons-list-item.list-item {
     color: black;
 }
 
+.zmdi-comment{
+    opacity: 0.2;
+}
 
 .ayah_text.arabic {
     font-size: xx-large;    
