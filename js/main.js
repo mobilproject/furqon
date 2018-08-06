@@ -72,7 +72,7 @@ ons.ready(function () {
     {
         language = localStorage.menu_language;
     } else {
-        
+
         localStorage.menu_language = language;
     }
 
@@ -234,9 +234,19 @@ function ajax(d)
             {
                 document.querySelector("#ayah_list").innerHTML = data;
 
-                $("ons-list-item").off().on("click", function(){
-                  $(event.currentTarget).find(".qavs_ichi").toggle();
+                $("ons-list-item").off().on("click", function () {
+                    $(event.currentTarget).find(".qavs_ichi").toggle();
                 });
+
+                setTimeout(function () {
+                    $(".qavs_ichi").fadeIn(500).delay(2000).fadeOut(500, function () {
+                        now_color();
+                    });
+
+                    function now_color() {
+                        $(".qavs_ichi").parent().parent().parent().parent().parent().css("background-color", "rgba(134, 255, 0, 0.35)");
+                    }
+                }, 2000);
             }
 
         }
@@ -281,7 +291,7 @@ function addListeners()
             console.error(error);
         });
     }, false);
-    
+
 }
 
 function set_langauge()
