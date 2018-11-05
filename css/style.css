@@ -172,3 +172,129 @@ img.furqonlogo {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    iframe.furqon {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: thin;
+}
+#camera_hole{
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: #1c1c22;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -40px;
+    box-shadow: inset 1px 0 1px 0px #6c6d67;
+}
+div#speaker_hole {
+    display: none;
+    width: 50px;
+    height: 10px;    
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAaUlEQVQoU12PCw2AMAwFbzaGDLCBDXSgAxvYABlgY+RgWxqaLOnn+vqWgBE4+WIFNuCudUk1EZorYCsDF5Aa4OYelAowqCTg0GeodLhZ62yiXL8JTNFTJ9vNv6cG9JvhN68nAYdRaYmeHot9F9X2eFD0AAAAAElFTkSuQmCC);
+    border-radius: 5px;
+    background-color: gray;
+    position: absolute;
+    margin-left: 153px;
+    margin-top: -40px;
+    box-shadow: inset 0 0 1px 1px #484040;
+}
+div#sensor_hole {
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: darkslateblue;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 265px;
+    margin-top: -40px;
+}
+.android {
+    display: block;
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+    width: fit-content;
+    
+    
+    
+    
+}
+#wrapper{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.left_side{
+    display: none;
+    grid-template-columns: 50% 50%;
+    color: black;
+    width: 95%;
+    text-align: center;
+    height: 1000px;
+    padding: 100px 10px 10px 10px;
+    text-shadow: 1px 1px 2px #83b976;
+}
+.floatright {
+    display: none;
+    height: 90px;
+    background-color: #a2a21529;
+    padding: 40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: unset;
+    line-height: 2;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.floadleft {
+    height: 90px;
+    background-color: #a2a21529;
+    padding: 40px;
+    width: 400px;
+    line-height: 2;
+    border-radius: 10px;
+    font-size: x-large;
+    float: right;
+    display: none;
+}
+img.furqonlogo {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.vine {
+    width: 70px;
+    margin-top: -20px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
